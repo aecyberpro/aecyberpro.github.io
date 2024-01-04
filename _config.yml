@@ -37,15 +37,17 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/profilepic.jpeg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Steve Campbell
+  email:               scampbell@aecyberpro.com
+  about: |
+    Hi, I'm Steve Campbell, also known as @lpha3ch0. I'm a Principal Security Consultant - Offensive Security (Pentester).
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             lpha3ch0
 
 # Add links to the sidebar.
 menu:
