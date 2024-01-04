@@ -40,7 +40,22 @@ work:
       - "Mentored two pentesters to develop the first public exploit code and Metasploit module for Symmetricom SyncServer RCE CVE-2022-40022"
       - "Project Discovery Nuclei template contributor"
       - "Developed private team tools in C# to bypass AV and EDR detection when loading shellcode and .Net assemblies into memory"
-      - "Developed pentesting methodology guides for internal network, and application security testing"
+      - "Developed pentesting methodology guides for internal network and application security testing"
+      - "Led the AppSec Engineering Team to develop pentest methodology guides and manage research projects"
+  - company: "EPAM Systems"
+    position: "Chief Security Systems Engineer"
+    website: "https://epam.com"
+    startDate: "2021-02"
+    endDate: "2022-03"
+    summary: >
+      Steve was the Chief Engineer in EPAM's Offensive Security Global Consulting practice and mentored over 60 consultants in five countries. He provided client sales support and assessment planning and scoping, and followed up to ensure client needs were met.
+    highlights-:
+      - "Mentored the consultants through publishing five public research papers and blog posts"
+      - "Led the consultants on Red Team “Capture the Flag” events through HackTheBox Red Team lab environments to build skills and teamwork"
+      - "Created custom malware used by EPAM pentesters to bypass antivirus detection on client engagements"
+      - "Created cloud infrastructure and virtual and physical appliances which enabled consultants to remotely perform onsite services such as Internal Network Pentests and Vulnerability Assessments, and WiFi Security Assessments."
+      - "Created a Knowledge Sharing Initiative which encouraged consultants to present training and research to peers on a monthly basis and fosters public speaking at public InfoSec conferences"
+      - "Created a training plan and budget to enable a group of consultants to meet client hardware security assessment needs"
 volunteer:
   - organization: "CoderDojo"
     position: "Teacher"
