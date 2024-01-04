@@ -47,6 +47,16 @@ author:
     Hi, I'm Steve Campbell, also known as @lpha3ch0. I'm a Principal Security Consultant - Offensive Security (Pentester).
   # # Used by `jekyll-seo-tag`:
   twitter:             lpha3ch0
+  social:
+    - title:           Twitter
+      url:             lpha3ch0
+    - title:           GitHub
+      url:              aecyberpro
+    - title:           LinkedIn
+      url:             hack-the-planet
+    - title:           Email
+      url:              scampbell@aecyberpro.com
+      
 
 # Add links to the sidebar.
 menu:
