@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 aecyberpro - @lpha3ch0's homepage
+title:                 aecyberpro - Steve Campbell's (@lpha3ch0) homepage
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,7 +28,7 @@ description:           >
   Security researcher, principal consultant (pentester), and bug bounty hunter.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               The vision to lead the way forward with the experience to avoid the pitfalls.
 
 # A list of keywords for your blog
 keywords:              []
