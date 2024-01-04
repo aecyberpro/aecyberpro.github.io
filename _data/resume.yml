@@ -2,49 +2,45 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Steve Campbell"
+  label: "Pentester"
+  picture: assets/images/profilepic.jpeg
+  email: "scampbell@aecyberpro.com"
+  phone: "redacted"
+  website: "https://aecyberpro.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    "The vision to lead the way forward with the experience to avoid the pitfalls."
+    "Steve is a Navy veteran and worked as an Aviation Electrician before switching to Information Technology. He has more than 18 years of combined IT and penetration testing experience. Before changing his focus to penetration testing, Steve worked in numerous IT and security engineering roles. This experience adds context to his report deliverables and remediation recommendations."
+    "He has planned, scoped, lead, and performed penetration testing engagements on various major enterprises, such as: Fortune 500, government institutions, banking, finance, healthcare and insurance, ecommerce, legal, and energy sector clients. These engagements provided deep insights to the organization on their weak points, how they can be connected to a full attack vector, how they can be monitored, detected, quarantined, and remediated."
+    "He shares his experience and insight through training and mentoring consultants and ensuring the quality of report deliverables."
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "redacted"
+    postalCode: "redacted"
+    city: "redacted"
     countryCode: "US"
-    region: "California"
+    region: "redacted"
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
+      username: "lpha3ch0"
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "hack-the-planet"
+      url: "https://aecyberpro.com"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Focal Point Data Risk (A CDW Company)"
+    position: "Technical Director"
+    website: "https://cdw.com"
+    startDate: "2022-03"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Steve led a team of 40 pentest consultants. His focus was on team development, client satisfaction, and quality assurance.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "A leader in the merger of the CDW, Focal Point, and Sirius pentest teams (40 consultants)"
+      - "Performed quality assurance reviews of all report deliverables"
+      - "Mentored two pentesters to develop the first public exploit code and Metasploit module for Symmetricom SyncServer RCE CVE-2022-40022"
+      - "Project Discovery Nuclei template contributor"
+      - "Developed private team tools in C# to bypass AV and EDR detection when loading shellcode and .Net assemblies into memory"
+      - "Developed pentesting methodology guides for internal network, and application security testing"
 volunteer:
   - organization: "CoderDojo"
     position: "Teacher"
