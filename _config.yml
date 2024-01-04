@@ -56,7 +56,7 @@ author:
       url:             hack-the-planet
     - title:           Email
       url:              scampbell@aecyberpro.com
-      
+
 
 # Add links to the sidebar.
 menu:
@@ -64,7 +64,7 @@ menu:
     url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé*
+  - title:             Resume
     url:               /resume/
   - title:             Documentation
     url:               /docs/
@@ -200,6 +200,12 @@ kramdown:
 # These settings are specific to Hydejack.
 
 hydejack:
+  dark_mode:
+    dynamic: false
+    sunrise: 6
+    sunset: 18
+    icon:
+    always: true
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related, random, comments]
 
