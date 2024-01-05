@@ -30,7 +30,7 @@ work:
   - company: "Focal Point Data Risk (A CDW Company)"
     position: "Technical Director"
     website: "https://cdw.com"
-    startDate: "2022-03"
+    startDate: "2022-03-01"
     endDate: ""
     summary: >
       Steve led a team of 40 pentest consultants. His focus was on team development, client satisfaction, and quality assurance.
@@ -45,8 +45,8 @@ work:
   - company: "EPAM Systems"
     position: "Chief Security Systems Engineer"
     website: "https://epam.com"
-    startDate: "2021-02"
-    endDate: "2022-03"
+    startDate: "2021-02-01"
+    endDate: "2022-03-01"
     summary: >
       Steve was the Chief Engineer in EPAM's Offensive Security Global Consulting practice and mentored over 60 consultants in five countries. He provided client sales support and assessment planning and scoping, and followed up to ensure client needs were met.
     highlights-:
