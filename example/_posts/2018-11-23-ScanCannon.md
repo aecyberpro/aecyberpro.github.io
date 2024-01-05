@@ -1,6 +1,9 @@
 ---
-published: true
-comments: true
+layout: post
+title: ScanCannon tool
+description: >
+  ScanCannon, combining the speed of Masscan with the thorough results of Nmap
+sitemap: true
 ---
 [ScanCannon](https://github.com/sdcampbell/ScanCannon) - Runs Masscan, followed up by Nmap for service version info. This should finish scans much faster than Nmap alone while providing service version info that Masscan doesn't provide.
 

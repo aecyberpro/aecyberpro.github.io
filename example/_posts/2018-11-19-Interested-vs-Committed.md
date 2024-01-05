@@ -1,7 +1,9 @@
 ---
-published: true
-comments: true
+layout: post
 title: Interested vs. Committed
+description: >
+  If you really want to accomplish a goal, learn the difference between interest and committment.
+sitemap: true
 ---
 The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish. They don't know what it means to be committed to something, so they wander through life like a leaf on a stream, never knowing they're holding themselves back and maybe they blame others or circumstance.
 
