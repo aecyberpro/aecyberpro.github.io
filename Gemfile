@@ -21,3 +21,6 @@ end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
+
+# Needed for the 'blog' layout, which uses a paginated layout with title and excerpt.
+gem "jekyll-paginate"
