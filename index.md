@@ -34,10 +34,11 @@ I share my experience and insight through training and mentoring consultants, cr
 
 ## Published Software
 
-- I've published tools/scripts in Python, Go, Ruby, Nim, and C#. I know enough C to read and modify source code, but not write it from scratch.
+- I've published tools/scripts in Python, Bash, Go, Ruby, Nim, and C#. I know enough C to read and modify source code, but not write it from scratch.
 - Metasploit and Nuclei contributor
 - Created private pentest team tools in C# for loading shellcode and .Net assemblies into memory and bypass detection. I don't plan on releasing them because I don't want them to get signatured by antivirus vendors.
 - My project highlights:
+    - [Bash for Pentesters](https://github.com/sdcampbell/bash_for_pentesters): My most frequently used Bash code snips for common pentest data parsing.
     - [Goscan](https://github.com/sdcampbell/goscan): Golang. Single file TCP port scanner for use in scanning from compromised pivot hosts
     - [Nessusploitable](https://github.com/sdcampbell/Nessusploitable): Ruby script which parses .nessus files for exploitable vulnerabilities and outputs a report to stdout or file in TSV format for import to Excel
     - [Nmapurls](https://github.com/sdcampbell/nmapurls): Golang. Tool which parses Nmap xml reports from either piped input or command line arg and outputs a list of http(s) URL's to be used in an automation pipeline
