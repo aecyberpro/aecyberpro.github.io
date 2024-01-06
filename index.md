@@ -10,15 +10,8 @@ I'm a retired U.S. Navy veteran where I worked as an Aviation Electrician (AE ~ 
 
 I'm also a father and husband. In my spare time I enjoy learning new things related to hacking, and taking my wife on motorcycle rides.
 
-## Experience
-
-I currently work as a "Principal Consultant" penetration tester on the CDW Offensive Security team. I have planned, scoped, lead, and performed penetration testing engagements on various major enterprises, such as: Fortune 500, government institutions, banking, finance, healthcare and insurance, ecommerce, legal, and energy sector clients. These engagements provided deep insights to the organization on their weak points, how they can be connected to a full attack vector, how they can be monitored, detected, quarantined, and remediated.
-
-I share my experience and insight through training and mentoring consultants, creating methodology documentation, and ensuring the quality of report deliverables.
-
 ## Skills
 
-- Programming: Bash, Python, Go, Ruby, Nim, C#, PowerShell
 - Pentesting:
     - Internal, External, and WiFi network pentesting
     - Web, API, and Mobile application pentesting
@@ -26,7 +19,14 @@ I share my experience and insight through training and mentoring consultants, cr
     - Thick client testing
     - Limited IoT pentesting experience
     - Physical security testing
+- Programming: Bash, Python, Go, Ruby, Nim, C#, PowerShell
 - Networking: I was a former CCNA cert holder (expired) and have a good understanding of networking and network technologies.
+
+## Experience
+
+I currently work as a "Principal Consultant" penetration tester on the CDW Offensive Security team. I have planned, scoped, lead, and performed penetration testing engagements on various major enterprises, such as: Fortune 500, government institutions, banking, finance, healthcare and insurance, ecommerce, legal, and energy sector clients. These engagements provided deep insights to the organization on their weak points, how they can be connected to a full attack vector, how they can be monitored, detected, quarantined, and remediated.
+
+I share my experience and insight through training and mentoring consultants, creating methodology documentation, and ensuring the quality of report deliverables.
 
 ## Public Speaking
 
