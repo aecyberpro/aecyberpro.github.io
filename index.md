@@ -4,7 +4,7 @@ title: Welcome!
 sitemap: true
 ---
 ## Whoami
-I'm Steve Campbell, also known as @lpha3ch0. Check out my blog while you're here.
+I'm Steve Campbell, also known as @lpha3ch0. Check out my [blog](https://www.aecyberpro.com/blog/) while you're here.
 
 I'm a retired U.S. Navy veteran where I worked as an Aviation Electrician (AE ~ @lpha3ch0) before switching to Information Technology. I have more than 18 years of combined IT and penetration testing experience. Before changing my focus to penetration testing, I worked in various IT and security engineering roles. This experience adds context to my pentest report deliverables and remediation recommendations.
 
