@@ -1,0 +1,10 @@
+{
+    "url": "https://www.aecyberpro.com/test.yaml",
+    "urls": [{
+        "url": "https://www.aecyberpro.com/test.yaml",
+        "name": "Foo"
+    },{
+        "url": "https://www.aecyberpro.com/test2.yaml",
+        "name": "Foo2"
+    }]
+}
