@@ -14,13 +14,13 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /lpha3ch0:
+  /hack/cdw:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - lpha3ch0_XSS
+        - CDW
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hackid/{id}':
