@@ -8,6 +8,8 @@ sitemap: true
 
 On a recent pentest I discovered Adobe Experience Manager (AEM) password hashes from a Nuclei scan. I found that Hashcat doesn't support cracking these hashes, although there is a forum [post](https://hashcat.net/forum/thread-7471.html) about it which is what ultimately led me to John.
 
+Note: This post is now outdated. Since originally posting this, I've found that although the latest Hashcat release doesn't support AEM hashes, you can build the latest source and it supports AEM hashes. Hashcat also provides better support for GPU cracking. I found that I had an error I was unable to resolve when attempting to compile John source with GPU support.
+
 The version of John installed from the package manager isn't compatible with AEM hashes. Follow these steps to build a compatible version and get cracking:
 
 1. `sudo apt-get install build-essential libssl-dev`
