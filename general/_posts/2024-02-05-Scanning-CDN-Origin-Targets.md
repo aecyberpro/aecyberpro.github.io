@@ -2,13 +2,13 @@
 layout: post
 title: Scanning CDN Origin Targets
 description: >
-  How to work around DNS resolving your external pentest targets to CDN (Akamai, Cloudflare) to run targeted scans based on TLS certificate names.
+  How to work around DNS resolving your external pentest targets to Content Delivery Networks (CDN) (Akamai, Cloudflare) to run targeted scans based on TLS certificate names.
 sitemap: true
 ---
 
 You're on an external penetration test. Your target company has an IP range or CIDR network address in scope and they use reverse proxies, meaning any particular IP address may be hosting multiple websites and routing traffic to backend web server targets based on domain name in the Host header. 
 
-The first thing you need to do is enumerate the TLS certificate Subject Alternative Names (SAN) to find the hostnames that each IP address is routing to backend servers. Once that is complete, if you run `nslookup`, `host`, or `dig` on each hostname, you may find that it's resolving to `akamaiedge.net` or other CDN provider.
+The first thing you need to do is enumerate the TLS certificate Subject Alternative Names (SAN) to find the hostnames that each IP address is routing to backend servers. Once that is complete, if you run `nslookup`, `host`, or `dig` on each hostname, you may find that it's resolving to `akamaiedge.net` or other Content Delivery Network (CDN) provider. You don't want to be scanning through the CDN provider because it will be using a WAF. This would likely result in not only missing vulnerabilities, this could be a disaster if you're scanning from your home/office IP address which could get you blocked across a number of other popular websites using the same CDN.
 
 Use the following steps to enumerate the hostnames from the TLS SANS, bulk add the hostnames to your /etc/hosts and scan them with Nuclei or Nessus.
 
