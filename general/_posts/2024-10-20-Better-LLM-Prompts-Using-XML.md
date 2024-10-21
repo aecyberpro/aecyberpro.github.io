@@ -92,6 +92,7 @@ By adopting XML-structured prompts, developers and cybersecurity professionals c
 As the field of prompt engineering continues to evolve, XML-structured prompts will become a standard practice, offering a foundation for more sophisticated and reliable AI-driven solutions[2][3].
 
 Citations:
+
 [1] https://xmlaficionado.com/XML+Aficionado/2024/04/Using+XML+Schema+in+AI+System+Prompts
 [2] https://www.reddit.com/r/LocalLLaMA/comments/1dsuzn8/finetuning_a_llm_on_xml_files/
 [3] https://github.com/Bradybry/chatXML
