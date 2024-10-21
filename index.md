@@ -50,6 +50,8 @@ I share my experience and insight through training and mentoring consultants, cr
 - Metasploit and Nuclei contributor
 - Created private pentest team tools in C# for loading shellcode and .Net assemblies into memory and bypass detection. I don't plan on releasing them because I don't want them to get signatured by antivirus vendors.
 - My project highlights:
+    - [dnsrecon](https://github.com/sdcampbell/dnsrecon): Bash; This isn't your typical subdomain enumeration tool. This tool has the ability to expand your reach by finding subdomains owned by a common organization, then dive down into the details to find those that are both live and match to your scope.
+    - [Content Security Policy Generator](https://github.com/sdcampbell/Content-Security-Policy-Generator): Python; A Python script that analyzes a web page and generates a Content Security Policy (CSP) header with an optional reporting mechanism. It's designed to help website administrators create an initial CSP for their site.
     - [Bash for Pentesters](https://github.com/sdcampbell/bash_for_pentesters): Bash; My most frequently used Bash code snips for common pentest data parsing.
     - [Goscan](https://github.com/sdcampbell/goscan): Go; Single file TCP port scanner for use in scanning from compromised pivot hosts
     - [Nessusploitable](https://github.com/sdcampbell/Nessusploitable): Ruby; Script which parses .nessus files for exploitable vulnerabilities and outputs a report to stdout or file in TSV format for import to Excel
