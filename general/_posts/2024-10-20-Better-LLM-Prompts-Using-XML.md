@@ -94,6 +94,9 @@ As the field of prompt engineering continues to evolve, XML-structured prompts w
 Citations:
 
 [1] https://xmlaficionado.com/XML+Aficionado/2024/04/Using+XML+Schema+in+AI+System+Prompts
+
 [2] https://www.reddit.com/r/LocalLLaMA/comments/1dsuzn8/finetuning_a_llm_on_xml_files/
+
 [3] https://github.com/Bradybry/chatXML
+
 [4] https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
