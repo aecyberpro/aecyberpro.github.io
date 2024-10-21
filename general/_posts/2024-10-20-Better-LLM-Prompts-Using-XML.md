@@ -87,6 +87,12 @@ For cybersecurity engineers, here's an example of a prompt structure for analyzi
 
 This prompt provides a comprehensive structure for analyzing vulnerabilities in a specific system. It clearly defines the target, areas of focus, and desired output format, enabling the LLM to generate a more focused and actionable security analysis.
 
-By adopting XML-structured prompts, developers and cybersecurity professionals can reach the full potential of LLMs, obtaining more precise, consistent, and easily parseable responses. This approach not only enhances the quality of AI-generated content but also streamlines the integration of LLM outputs into existing workflows and applications.
+By adopting XML-structured prompts, developers and cybersecurity professionals can reach the full potential of LLMs, obtaining more precise, consistent, and easily parseable responses. This approach not only enhances the quality of AI-generated content but also streamlines the integration of LLM outputs into existing workflows and applications[1][4].
 
-As the field of prompt engineering continues to evolve, XML-structured prompts will become a standard practice, offering a foundation for more sophisticated and reliable AI-driven solutions.
+As the field of prompt engineering continues to evolve, XML-structured prompts will become a standard practice, offering a foundation for more sophisticated and reliable AI-driven solutions[2][3].
+
+Citations:
+[1] https://xmlaficionado.com/XML+Aficionado/2024/04/Using+XML+Schema+in+AI+System+Prompts
+[2] https://www.reddit.com/r/LocalLLaMA/comments/1dsuzn8/finetuning_a_llm_on_xml_files/
+[3] https://github.com/Bradybry/chatXML
+[4] https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
