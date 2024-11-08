@@ -38,16 +38,16 @@ These things I've learned about the above ideas and emotional intelligence have 
 
 In my earlier years as a voter, I voted for the candidate that I liked best. I formed my opinion based on what I saw or read from the news. I trusted that the news was impartial and honest. What started my political shift was at some point I was having a political discussion in an online forum and my views were challenged. I started spouting off a bunch of "facts" that I learned from the news media. Today we can expand the definition of "news media" to mean pretty much any media source because politics has infected everything you see and read online. 
 
-The people I were debating challenged my views. I responded like the "lawyer" we just talked about. But something someone said made me realize I was a "low information voter" because I had simply memorized and regurgitated what the media "talking heads" were saying. I realized I never bothered to fact check, I simply accepted what the news media told me.
+The people I was debating challenged my views. I responded like the "lawyer" we just talked about. But something someone said made me realize I was a "low information voter" because I had simply memorized and regurgitated what the media "talking heads" were saying. I realized I never bothered to fact check, I simply accepted what the news media told me.
 
 A quick aside about "fact checking": You can't trust the fact-checkers. Do your own research. If you simply checked Snopes or searched and found a few results in the search engine that back up what you believe, you're still being a lawyer. You MUST find sources that oppose your views and dive down that rabbit hole in search of the truth. Try to open your mind and understand the other side's point of view, even if you don't agree with it. A wise person once said "seek first to understand, then to be understood".
 
-Since having that political debate and learning I was a "low information voter", I vowed to find the truth before the next election and stop voting based on who was more likable. That led to changing political parties. But it did't stop there. What I learned made me distrust all news and media sources, and distrust both political parties.
+Since having that political debate and learning I was a "low information voter", I vowed to find the truth before the next election and stop voting based on who was more likable. That led to changing political parties. But it didn't stop there. What I learned made me distrust all news and media sources, and distrust both political parties.
 
 I want to leave you with one challenge in closing: If you want to learn, grow and heal, do the following going forward:
 
 1. When debating politics, first seek to understand, then to be understood. If the other person is talking and you're not actively listening and you're simply thinking about what you're going to say in rebuttal, you're not listening and you'll never learn anything new because you're stuck in "lawyer" mode.
-2. When something in the news or media triggers a feeling of anger, disgust, or fear, immediately stop and think that you're being manipulated. Keep in mind that the media only profits when they publish something inflammatory that triggers an emotional response. Politicians thrive and profit when we're divided and angry. If everything in the media was "puppies and rainbows", the media and politicians lose power and money. 
+2. When something in the news or media triggers a feeling of anger, disgust, or fear, immediately stop and realize that you're being manipulated. Keep in mind that the media only profits when they publish something inflammatory that triggers an emotional response. Politicians thrive and profit when we're divided and angry. If everything in the media was "puppies and rainbows", the media and politicians lose power and money. 
 
 Thanks for reading. Please share this if you think it was valuable.
 Peace
