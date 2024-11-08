@@ -44,10 +44,15 @@ A quick aside about "fact checking": You can't trust the fact-checkers. Do your 
 
 Since having that political debate and learning I was a "low information voter", I vowed to find the truth before the next election and stop voting based on who was more likable. That led to changing political parties. But it didn't stop there. What I learned made me distrust all news and media sources, and distrust both political parties.
 
-I want to leave you with one challenge in closing: If you want to learn, grow and heal, do the following going forward:
+I want to leave you with one challenge in closing: If you want to learn, grow and heal, remember the following thoughts going forward:
 
-1. When debating politics, first seek to understand, then to be understood. If the other person is talking and you're not actively listening and you're simply thinking about what you're going to say in rebuttal, you're not listening and you'll never learn anything new because you're stuck in "lawyer" mode.
-2. When something in the news or media triggers a feeling of anger, disgust, or fear, immediately stop and realize that you're being manipulated. Keep in mind that the media only profits when they publish something inflammatory that triggers an emotional response. Politicians thrive and profit when we're divided and angry. If everything in the media was "puppies and rainbows", the media and politicians lose power and money. 
+When debating politics, first seek to understand, then to be understood. If the other person is talking and you're not actively listening and you're simply thinking about what you're going to say in rebuttal, you're not listening and you'll never learn anything new because you're stuck in "lawyer" mode.
+
+When something in the news or media triggers a feeling of anger, disgust, or fear, immediately stop and realize that you're being manipulated. Keep in mind that the media only profits when they publish something inflammatory that triggers an emotional response. Politicians thrive and profit when we're divided and angry. If everything in the media was "puppies and rainbows", nobody would be reading their published works. Politicians know that anger is what drives us to contribute to their campaign so they can "defeat those evil (insert party here)" and spur us to get up and go vote. The media and politicians thrive on our fear and anger! The only way we really win is if we see the media and politicians for who they really are and realize that you can't trust any of them. 
+
+No, it's not simply disinformation from foreign countries trying to manipulate our elections. There's disinformation everywhere. The media departed the realm of fair and balanced reporting many years ago. Almost everyone who publishes about politics is simply another "lawyer" type pushing their own skewed views and are frequently amplifying misinformation. You can't even trust the fact checkers. If you dig deep enough you find that fact checkers are run by corporate interests and/or political hacks.
+
+I hope you take what I've said to heart. My hope is that we can defeat the fear, anger, and hate by smashing our paradigm and seeing through the misinformation.
 
 Thanks for reading. Please share this if you think it was valuable.
 Peace
