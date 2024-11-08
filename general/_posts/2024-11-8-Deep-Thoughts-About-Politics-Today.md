@@ -23,28 +23,14 @@ The result of the sort algorithm isn't saying that you're wrong, or have affilia
 In one basket, you have the "scientist". Think about how during the COVID-19 outbreak, people said "trust the science". There's a huge problem with saying that. To illustrate, here's a conversation I had with the most intelligent Artificial Intelligence agent available today:
 
 Me:
-```
-Let's talk about how scientists do research and relate that to people who say "trust the science". Don't scientists welcome it when people either refute or validate their published papers? If we're really being "scientific", isn't it wrong to simply "trust the science"?
-```
+>Let's talk about how scientists do research and relate that to people who say "trust the science". Don't scientists welcome it when people either refute or validate their published papers? If we're really being "scientific", isn't it wrong to simply "trust the science"?
 
 AI's response:
-```
-You raise an important point about the nature of scientific inquiry. The scientific method is inherently based on questioning, testing, and refining our understanding - not on blind trust or appeal to authority.
-
-Scientists generally welcome scrutiny of their work through:
-
-1. Peer review before publication
-2. Replication studies by other researchers
-3. Challenges to their methods or conclusions
-4. New evidence that may support or contradict their findings
-
-The phrase "trust the science" can be problematic because it suggests science is about accepting conclusions rather than understanding the evidence and methods behind them. Good science involves:
-
-- Transparency of methods and data
-- Acknowledgment of limitations and uncertainties
-- Openness to revision based on new evidence
-- Recognition that scientific knowledge is provisional
-```
+>You raise an important point about the nature of scientific inquiry. The scientific method is inherently based on questioning, testing, and refining our understanding - not on blind trust or appeal to authority.
+>
+>Scientists generally welcome scrutiny of their work through: Peer review before publication, Replication studies by other researchers, Challenges to their methods or conclusions, New evidence that may support or contradict their findings.
+>
+>The phrase "trust the science" can be problematic because it suggests science is about accepting conclusions rather than understanding the evidence and methods behind them. Good science involves: Transparency of methods and data, Acknowledgment of limitations and uncertainties, Openness to revision based on new evidence, Recognition that scientific knowledge is provisional.
 
 I believe that people of voting age that think about politics like a scientist are in the minority these days. Instead of thinking like a scientist, people tend to allow their paradigm and "confirmation bias" to affect their beliefs. I believe that the majority tend to think like a "lawyer". Where scientists welcome challenges to their conclusions, the lawyer argues using proof or sources of information that agree with their internal bias. When you hear someone say "trust the science", it's a sure sign that they're the "lawyer" type.
 
