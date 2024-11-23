@@ -10,7 +10,7 @@ Large Language Models (LLMs) have revolutionized natural language processing, bu
 
 Until recently, I've been asking LLM's questions about writing code, or open ended questions to expand on ideas for chapter content. Large LLM's such as Claude and ChatGPT are great for this purpose. 
 
-When I starting diving into using smaller locally-run LLM's for parsing pentest scan data, I found that it's critical to use carefully designed prompts with them. That's when I read about using XML to design LLM prompts. I've found XML to work best with prompting the smaller LLM's for specific tasks.
+When I starting diving into using smaller locally-run LLM's for parsing pentest scan data, I found that it's critical to use carefully designed prompts with them. That's when I read about using XML to design LLM prompts. Incorporating well-structured and defined XML prompts into my AI projects has been crucial for getting the best results.
 
 ## The XML Advantage
 
