@@ -87,6 +87,128 @@ For cybersecurity engineers, here's an example of a prompt structure for analyzi
 
 This prompt provides a comprehensive structure for analyzing vulnerabilities in a specific system. It clearly defines the target, areas of focus, and desired output format, enabling the LLM to generate a more focused and actionable security analysis.
 
+## Implementation
+
+Save the following Bash script as `generate_prompt.sh`:
+
+```
+#!/bin/bash
+
+# Colors for better readability
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+echo -e "${BLUE}AI Prompt Generator${NC}"
+echo "This script will help you create a structured XML prompt."
+
+# Gather basic information
+read -p "What is the main task or question for the AI? " main_task
+read -p "What is your role or profession? " user_role
+read -p "What is your location? " location
+read -p "What is your preferred language? " language
+
+# Get context details
+echo -e "\n${GREEN}Context Information${NC}"
+read -p "Are there any specific restrictions or limitations? " restrictions
+read -p "Do you need specific formatting in the response? " formatting
+
+# Get additional requirements
+echo -e "\n${GREEN}Output Requirements${NC}"
+read -p "What style should the response be in? (e.g., technical, casual, academic) " style
+read -p "Should the AI include specific types of content? (e.g., code, math, diagrams) " content_types
+
+# Generate XML prompt
+cat << EOF
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ai_prompt>
+    <task>$main_task</task>
+    <user_profile>
+        <role>$user_role</role>
+        <location>$location</location>
+        <language>$language</language>
+    </user_profile>
+    <requirements>
+        <style>$style</style>
+        <content_types>$content_types</content_types>
+        <formatting>$formatting</formatting>
+    </requirements>
+    <restrictions>$restrictions</restrictions>
+</ai_prompt>
+EOF
+```
+
+Make it executable with the command `chmod +x generate_prompt.sh`
+
+Run it with the command `./generate_prompt.sh`
+
+The generated XML structure helps AI models better understand the context and requirements of your request, potentially leading to more accurate and relevant responses.
+
+I'll provide an example showing how I used the script output to create a better prompt I can use for one of my common pentesting taks that I frequently delegate to AI. Here's the script output:
+
+```
+$ ./generate_prompt.sh
+AI Prompt Generator
+This script will help you create a structured XML prompt.
+What is the main task or question for the AI? Create Frida JavaScript scripts for mobile application security testing.
+What is your role or profession? Security Consultant and penetration tester
+What is your location? United States
+What is your preferred language? English
+
+Context Information
+Are there any specific restrictions or limitations? Ensure that you carefully evaluate the platform, Android or iOS from the user prompt, to ensure that you use the correct Frida API when creating scripts.
+Do you need specific formatting in the response? The response should contain only JavaScript with proper formatting, and should be output in Markdown code block. No commentary should be provided. If you don't have enough information from the human, stop and ask any necessary questions.
+
+Output Requirements
+What style should the response be in? (e.g., technical, casual, academic) technical
+Should the AI include specific types of content? (e.g., code, math, diagrams) code in JavaScript
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ai_prompt>
+    <task>Create Frida JavaScript scripts for mobile application security testing.</task>
+    <user_profile>
+        <role>Security Consultant and penetration tester</role>
+        <location>United States</location>
+        <language>English</language>
+    </user_profile>
+    <requirements>
+        <style>technical</style>
+        <content_types>code in JavaScript</content_types>
+        <formatting>The response should contain only JavaScript with proper formatting, and should be output in Markdown code block. No commentary should be provided. If you don't have enough information from the human, stop and ask any necessary questions.</formatting>
+    </requirements>
+    <restrictions>Ensure that you carefully evaluate the platform, Android or iOS from the user prompt, to ensure that you use the correct Frida API when creating scripts.</restrictions>
+</ai_prompt>
+```
+
+I placed the XML content into a Claude.ai project instructions, as shown here:
+
+![example showing setting claude.ai project instructions in XML](/assets/img/blog/setting-the-claude-project-instructions-xml.png)
+
+Here's the conversation where I used it to help me create a Frida script that helps me audit crypto ciphers during a mobile application pentest:
+
+![Claude AI Android Frida script conversation](/assets/img/blog/claude-ai-Android-crypto-Frida-script-convo.png)
+
+You can see how in the conversation, instead of making assumptions and providing bad output, it heeded my "system" instructions and asked for more guidance before providing the proper output. From my experience, if you simply tell AI what you want without putting significant thought and effort into your prompt, you won't be happy with the results and you'll think "AI sucks". However, the problem frequently isn't the fault of AI, it's caused by your lack of knowledge of how to use it properly.
+
+## Best Practices
+
+- Tag Selection: Use intuitive tag names that clearly describe their content. Common tags include:
+
+```
+<instructions>
+<context>
+<example>
+<formatting>
+<requirements>
+```
+
+- Consistency: Maintain the same tag structure throughout your conversation with the AI. This helps the model understand and maintain context across multiple interactions.
+- Nesting: Organize complex prompts using nested tags to create clear hierarchies of information. This is particularly useful when dealing with multi-step tasks or detailed requirements.
+- The use of XML tags helps AI models parse your prompts more accurately, leading to higher-quality outputs and more consistent responses. Whether you're using the web interface or API, this structured approach can significantly improve your AI interactions.
+
+## Conclusion
+
 By adopting XML-structured prompts, developers and cybersecurity professionals can reach the full potential of LLMs, obtaining more precise, consistent, and easily parseable responses. This approach not only enhances the quality of AI-generated content but also streamlines the integration of LLM outputs into existing workflows and applications[1][4].
 
 As the field of prompt engineering continues to evolve, XML-structured prompts will become a standard practice, offering a foundation for more sophisticated and reliable AI-driven solutions[2][3].
