@@ -8,9 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I'm Steve Campbell, also known as @lpha3ch0. I lead a team of offensive security consultants. When I'm not performing security assessments for customers, I'm continually learning and building tools and methodology documentation for my team. Outside of work, I enjoy riding my motorcycle and exploring twisty back roads with my wife and friends.
+    Hi, I'm Steve Campbell, also known as @lpha3ch0. I lead a team of pentest consultants. When I'm not performing security assessments for customers, I'm continually learning and building tools and methodology documentation for my team. Outside of work, I enjoy riding my motorcycle and exploring twisty back roads with my wife and friends.
 
-    I'm the author of "Bash Shell Scripting for Pentesters". I'm currently learning about ML and AI.
+    I'm the author of "Bash Shell Scripting for Pentesters".
 
   # This photo will be used in the about section
   picture:
