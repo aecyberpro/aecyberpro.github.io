@@ -27,7 +27,7 @@ I'm the author of the book "Bash Shell Scripting for Pentesters". Part 1 focuses
 
 ## Experience
 
-I currently work as a Technical Lead, AppSec Lead, and penetration tester on the CDW Offensive Security team. I have planned, scoped, lead, and performed penetration testing engagements on various major enterprises, such as: Fortune 500, government institutions, banking, finance, healthcare and insurance, ecommerce, legal, and energy sector clients. These engagements provided deep insights to the organization on their weak points, how they can be connected to a full attack vector, how they can be monitored, detected, quarantined, and remediated.
+I currently work as a Technical Lead, AppSec Lead, and pentester on an offensive security consulting team. I have planned, scoped, lead, and performed penetration testing engagements on various major enterprises, such as: Fortune 50, government institutions, banking, finance, healthcare and insurance, ecommerce, legal, and energy sector clients. These engagements provided deep insights to the organization on their weak points, how they can be connected to a full attack vector, how they can be monitored, detected, quarantined, and remediated.
 
 I share my experience and insight through training and mentoring consultants, creating methodology documentation, and ensuring the quality of report deliverables.
 
