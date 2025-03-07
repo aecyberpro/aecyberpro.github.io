@@ -33,7 +33,7 @@ I share my experience and insight through training and mentoring consultants, cr
 
 ## Public Speaking
 
-- “Introduction to Pwntools for Binary Analysis and Exploit Development”, 10/2021, EPAM internal training workshop
+- "Red Team Rising: Breaking Into Offensive Security" - CyberForge 2025
 - “Cross-Site Scripting – Beyond Alert()” – DefCon 401, 09/2019
 - “Introduction to the OWASP Top Ten and Web App Pentesting”, ECPI University alumnus presentation to Cyber Security students, 08/2016
 
