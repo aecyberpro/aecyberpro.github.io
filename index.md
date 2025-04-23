@@ -63,7 +63,7 @@ I share my experience and insight through training and mentoring consultants, cr
     - [Nmapurls](https://github.com/sdcampbell/nmapurls): Go; Tool which parses Nmap xml reports from either piped input or command line arg and outputs a list of http(s) URL's to be used in an automation pipeline
     - [scope-resolver](https://github.com/sdcampbell/scope-resolver): Go; Expands a pentest scope by taking an input list which includes IP addresses and parses DNS and TLS SAN hostnames and merges the results with the original scope list
     - [phpLFI](https://github.com/sdcampbell/phpLFI): Nim; Tool which tests for LFI in PHP apps and automates the process of abusing LFI's to download source code and discover new files via includes and recursively download additional source code files
-    - [Bash TUI menu example](https://github.com/sdcampbell/Bash-TUI-Example): Easily build interactive shell command menus so you can avoid having to memorize many complex commands.
+    - [Bash TUI menu example](https://github.com/sdcampbell/Bash-TUI-Example): Bash; Easily build interactive shell command menus so you can avoid having to memorize many complex commands.
 - Contributions to public repositories:
     - [m0bilesecurity/RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security/commit/4bb9e1be580c85e41b08c7f90f480f8e4daefc31)
     - [moohax/pypipal](https://github.com/sdcampbell/pypipal)
