@@ -29,5 +29,7 @@ Secure code review by the researcher discovered that the ResetPassword route inh
 ## Timeline
 
 3/28/2025: Reported the vulnerability to the developer
+
 4/30/2025: No further communication was received from the developer
+
 4/30/2025: Applied to Mitre for a CVE
