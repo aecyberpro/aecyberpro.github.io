@@ -17,14 +17,14 @@ Secure code review by the researcher discovered that the ResetPassword route inh
 1. Proxy the browser through Burp Suite
 2. Login as admin
 2. Navigate to Settings -> Security, click on the `ResetPassword` button to the right of any user
-3. Change any user's password.
+3. Change any user's password
 4. In Burp Suite, find the PUT request to endpoint `/api/SecuritySettings/ResetPassword` and send it to the Repeater tool
-5. Logout and login as any non-admin user.
+5. Logout and login as any non-admin user
 6. Copy the Authorization: Bearer token from the current user session
 7. Revisit the request sent to the Repeater tool
 8. Replace the Bearer token with the non-admin user's token
 9. Submit the request and notice the 200 response
-10. Login with the user and password for the account who's password you reset
+10. Login with the username and password of the account that was reset
 
 ## Timeline
 
