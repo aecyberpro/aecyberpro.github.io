@@ -6,7 +6,7 @@ description: >
 sitemap: true
 ---
 
-According to ![Danphe Health](https://opensource-emr.github.io/hospital-management-emr/), *"Danphe EMR is a enterprise web-based application which covers all day to day aspects of Hospital management end to end. Its currently live 50 plus hospitals in Asia(India,Nepal and Bangladesh)"*.
+According to [Danphe Health](https://opensource-emr.github.io/hospital-management-emr/), *"Danphe EMR is a enterprise web-based application which covers all day to day aspects of Hospital management end to end. Its currently live 50 plus hospitals in Asia(India,Nepal and Bangladesh)"*.
 
 The `/api/SecuritySettings/ResetPassword` route seems to be intended for administrators to reset user passwords since the function is found in the web interface under "Settings" -> "Security" and doesn't require knowledge of the user's existing password. This vulnerability allows any authenticated user, regardless of role, to reset the password and takeover the account of any user, including the site admin. Considering the purpose of the application, exploitation of this vulnerability may result in exposure of Protected Health Information (PHI).
 
