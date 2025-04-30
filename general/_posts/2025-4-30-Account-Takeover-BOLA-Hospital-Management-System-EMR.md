@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Account Takeover in Danphe Health Hospital Management System EMR
+title: Account Takeover in Danphe Health Hospital Management System EMR version 3.2
 description: >
   Any authenticated user can takeover other accounts, including the admin account, due to Broken Object Level Authorization on the /api/SecuritySettings/ResetPassword endpoint.
 sitemap: true
@@ -10,7 +10,7 @@ According to [Danphe Health](https://opensource-emr.github.io/hospital-managemen
 
 The `/api/SecuritySettings/ResetPassword` route seems to be intended for administrators to reset user passwords since the function is found in the web interface under "Settings" -> "Security" and doesn't require knowledge of the user's existing password. This vulnerability allows any authenticated user, regardless of role, to reset the password and takeover the account of any user, including the site admin. Considering the purpose of the application, exploitation of this vulnerability may result in exposure of Protected Health Information (PHI).
 
-Secure code review by the researcher discovered that the ResetPassword route inherits basic authentication functionality from the CommonController base class, which has the `[DanpheDataFilter()]` attribute. This verifies the user is logged in (has a valid JWT token). It doesn't verify the user has admin rights or can only modify their own password.
+Secure code review by the researcher discovered that the ResetPassword route inherits basic authentication functionality from the CommonController base class, which has the `[DanpheDataFilter()]` attribute. This verifies the user is logged in (has a valid JWT token). It doesn't verify the user has admin rights or can only modify their own password. The affected software version is 3.2.
 
 ## Steps to recreate the vulnerability
 
