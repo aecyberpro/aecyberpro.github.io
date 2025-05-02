@@ -6,9 +6,9 @@ sitemap: true
 ## Whoami
 I'm Steve Campbell, also known as @lpha3ch0. Check out my [blog](https://www.aecyberpro.com/blog/) while you're here.
 
-I'm a retired U.S. Navy veteran where I worked as an Aviation Electrician (AE ~ @lpha3ch0) before switching to Information Technology. I have more than 19 years of combined IT and penetration testing experience. Before changing my focus to penetration testing, I worked in various IT and security engineering roles. This experience adds context to my pentest report deliverables and remediation recommendations.
+I'm a retired U.S. Navy veteran where I worked as an Aviation Electrician (AE ~ @lpha3ch0) before switching to Information Technology. I have more than 20 years of combined IT and penetration testing experience. Before changing my focus to penetration testing, I worked in various IT and security engineering roles. This experience adds context to my pentest report deliverables and remediation recommendations.
 
-I'm also a father and husband. In my spare time I enjoy learning new things related to hacking, and taking my wife on motorcycle rides.
+I'm also a father and husband. In my spare time I enjoy learning new things related to hacking and taking my wife on motorcycle rides.
 
 I'm the author of the book "Bash Shell Scripting for Pentesters". Part 1 focuses on the basics, building a strong foundation. Part 2 covers using Bash scripting for automation in penetration testing scenarios. Part 3 covers advanced topics, including evasion and obfuscation, interfacing with AI in pentest workflows, and DevSecOps using Bash. Buy it on [Amazon](https://a.co/d/cZhrRqA)
  or [Packt](https://www.packtpub.com/en-us/product/bash-shell-scripting-for-pentesters-9781835880838) 
@@ -63,7 +63,7 @@ I share my experience and insight through training and mentoring consultants, cr
     - [Nmapurls](https://github.com/sdcampbell/nmapurls): Go; Tool which parses Nmap xml reports from either piped input or command line arg and outputs a list of http(s) URL's to be used in an automation pipeline
     - [scope-resolver](https://github.com/sdcampbell/scope-resolver): Go; Expands a pentest scope by taking an input list which includes IP addresses and parses DNS and TLS SAN hostnames and merges the results with the original scope list
     - [phpLFI](https://github.com/sdcampbell/phpLFI): Nim; Tool which tests for LFI in PHP apps and automates the process of abusing LFI's to download source code and discover new files via includes and recursively download additional source code files
-    - [Bash TUI menu example](https://github.com/sdcampbell/Bash-TUI-Example): Bash; Easily build interactive shell command menus so you can avoid having to memorize many complex commands.
+    - [Bash TUI menu example](https://github.com/sdcampbell/Bash-TUI-Example): Bash; Easily build interactive shell command menus with fuzzy search so you can avoid having to memorize many complex commands.
 - Contributions to public repositories:
     - [m0bilesecurity/RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security/commit/4bb9e1be580c85e41b08c7f90f480f8e4daefc31)
     - [moohax/pypipal](https://github.com/sdcampbell/pypipal)
