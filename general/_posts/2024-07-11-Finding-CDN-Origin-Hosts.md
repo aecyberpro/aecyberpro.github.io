@@ -17,7 +17,7 @@ Note: If you’re able to find an origin server and test it directly without bei
 
 # Use Censys
 
-You should be able to create a free [Census.io](http://census.io/ "http://Census.io") account.
+You should be able to create a free [Censys.io](http://censys.io/ "http://censys.io") account.
 
 To search for a specific SAN, you can use the following query: (Select Certificates in search dropdown menu) `parsed.extensions.subject_alt_name.dns_names: example.com`
 
