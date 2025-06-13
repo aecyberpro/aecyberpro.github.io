@@ -6,7 +6,9 @@ description: >
 sitemap: true
 ---
 
-# Introduction
+# AWS Role Assumption Credential Configuration
+
+## Introduction
 
 There are two use cases where I typically need to assume a role, then configure the temporary credentials to use the assumed role:
 1. My initial IAM user is locked down and requires MFA. I desired principle of least privilege instead of giving blanket admin rights to the IAM user. I have to use MFA to assume an admin role.
@@ -14,7 +16,7 @@ There are two use cases where I typically need to assume a role, then configure 
 
 Once I assumed the role I needed to configure the assumed role temporary credentials in either environment variables or in a credentials file profile. I was looking for a way to streamline this and automatically configure the assumed credentials when I stumbled upon this information.
 
-# Basic Role Assumption Configuration
+## Basic Role Assumption Configuration
 
 In your `~/.aws/config` file, create a profile that references your base profile:
 
@@ -57,7 +59,7 @@ export AWS_PROFILE=assumed-role-profile
 aws s3 ls
 ```
 
-# Additional Configuration Options
+## Additional Configuration Options
 
 You can also add:
 
@@ -72,7 +74,7 @@ external_id = SomeExternalId  # If required by the role
 mfa_serial = arn:aws:iam::123456789012:mfa/username  # If MFA is required
 ```
 
-# For Cross-Account Roles
+## For Cross-Account Roles
 
 If you're assuming a role in a different account:
 
@@ -83,7 +85,7 @@ source_profile = base-profile
 external_id = UniqueExternalId  # Often required for cross-account access
 ```
 
-# Alternative: Using credential_source
+## Alternative: Using credential_source
 
 If you're running on EC2 instances or containers, you can use `credential_source` instead of `source_profile`:
 
