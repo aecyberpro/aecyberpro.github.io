@@ -54,6 +54,7 @@ I share my experience and insight through training and mentoring consultants, cr
 - Metasploit and Nuclei contributor
 - Created private pentest team tools in C# for loading shellcode and .Net assemblies into memory and bypass detection.
 - My project highlights:
+    - [san-resolver](https://github.com/sdcampbell/san-resolver): Go; Uses input from tlsx to uncover CDN origin hosts and web applications that don't resolve in DNS from TLS SAN certificates.
     - [xfil](https://pypi.org/project/xfil/): Python; Blind web app XPath data exfiltration tool.
     - [dnsrecon](https://github.com/sdcampbell/dnsrecon): Bash; This isn't your typical subdomain enumeration tool. This tool has the ability to expand your reach by finding subdomains owned by a common organization, then dive down into the details to find those that are both live and match to your scope.
     - [Content Security Policy Generator](https://github.com/sdcampbell/Content-Security-Policy-Generator): Python; A Python script that analyzes a web page and generates a Content Security Policy (CSP) header with an optional reporting mechanism. It's designed to help website administrators create an initial CSP for their site.
