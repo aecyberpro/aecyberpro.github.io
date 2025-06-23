@@ -38,8 +38,9 @@ I share my experience and insight through training and mentoring consultants, cr
 - “Cross-Site Scripting – Beyond Alert()” – DefCon 401, 09/2019
 - “Introduction to the OWASP Top Ten and Web App Pentesting”, ECPI University alumnus presentation to Cyber Security students, 08/2016
 
-## CVE
+## Published Vulnerabilities
 
+- (No CVE), Account Takeover in Danphe Health Hospital Management System EMR due to Broken Object Level Authorization in password reset, https://github.com/hospital-management-system-emr/hospital-management-system-emr-opensource/issues/12
 - CVE-2023-33254, LDAP bind credentials exposure on KACE Systems Deployment and Remote Site appliances
 - CVE-2022-23436, Multiple Stored Cross-Site Scripting (XSS) vulnerabilities in Nakivo Backup and Replication
 - CVE-2020-9330, LDAP bind credential exposure in Xerox WorkCentre printers
