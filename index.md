@@ -37,6 +37,8 @@ I share my experience and insight through training and mentoring consultants, cr
 - "Red Team Rising: Breaking Into Offensive Security" - CyberForge 2025
 - “Cross-Site Scripting – Beyond Alert()” – DefCon 401, 09/2019
 - “Introduction to the OWASP Top Ten and Web App Pentesting”, ECPI University alumnus presentation to Cyber Security students, 08/2016
+- Interview with Thomas Richard, cyber security recruiter:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p4cWb7uTY3M?si=V1HHuEI_U3PRGzob" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Published Vulnerabilities
 
