@@ -18,7 +18,7 @@ Secure code review by the researcher discovered that the ResetPassword route inh
 2. Login as admin
 2. Navigate to Settings -> Security, click on the `ResetPassword` button to the right of any user
 3. Change any user's password
-4. In Burp Suite, find the PUT request to endpoint `/api/SecuritySettings/ResetPassword` and send it to the Repeater tool. Example request:m![Example PUT request](/assets/img/blog/DanphePUT.png)
+4. In Burp Suite, find the PUT request to endpoint `/api/SecuritySettings/ResetPassword` and send it to the Repeater tool. Example request: ![Example PUT request](/assets/img/blog/DanphePUT.png)
 5. Logout and login as any non-admin user
 6. Copy the Authorization: Bearer token from the current user session
 7. Revisit the request sent to the Repeater tool
